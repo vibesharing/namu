@@ -1,2 +1,0 @@
-# namu
-Korea | Namu
