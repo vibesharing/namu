@@ -3,11 +3,11 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">CropChat</span>
+        <span class="mdl-layout-title">나무</span>
       </div>
     </header>
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">CropChat</span>
+      <span class="mdl-layout-title">나무</span>
       <nav class="mdl-navigation">
         <router-link class="mdl-navigation__link" to="/" @click.native="hideMenu">Home</router-link>
         <router-link class="mdl-navigation__link" to="/post" @click.native="hideMenu">Post a picture</router-link>
@@ -61,6 +61,7 @@ header {
   padding: 0 16px 0 24px;
   background-color: #35495E;
   color: #ffffff;
+  background-color: rgb(76,175,80) !important;
 }
 
 header span {
@@ -71,6 +72,5 @@ header span {
   letter-spacing: .02em;
   font-weight: 400;
   box-sizing: border-box;
-  padding-top: 16px;
 }
 </style>
